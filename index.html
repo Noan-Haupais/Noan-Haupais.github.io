@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Other_files/Css/main-style.css">
+    <link rel="stylesheet" href="Other_files/Css/clock.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altium - Acceuil</title>
+  <style>
+    a.show-btn {
+      position: absolute;
+      bottom: 1px;
+      left: 150px;
+    }
+    div.content {
+      padding-top: 50px;
+      padding-left: 20px;
+    }
+  </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+Lost Trooper MkII</div>
+<input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+<li class="clock"><p class="display"></p></li>
+<li><a class="active" href="index.html">Acceuil</a></li>
+<li><a href="hierarchy.html">Hiérarchie</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="login.html"><img src="./Other_files/Img/whiteUser.png" weight="20" width="20"> Connexion</a></li>
+</ul>
+</nav>
+    <div class="content">
+      <div>
+      <p>
+        Bienvenue sur le site des Lost Trooper MkII !
+      </p><br>
+      <h3>Qui sommes-nous ?</h3><br>
+      <p> <b>Lost Trooper MkII</b> ( anciennement <b>The Lost Troopers</b> ), est un crew créer sur <b>Gta V</b>.</p><a href="faq.html">En savoir plus</a><br>
+      <br><h3>Foire Aux Questions - FAQ</h3><br>
+      <h4>  Comment nous rejoindre ?</h4>
+      <p>   Il suffit de se rendre → <a href="https://socialclub.rockstargames.com/crew/lost_troopers_mkii/wall">ici</a> ←, puis de te connecter / creer un compte <b>social club</b>. </p>
+      <br><h4>Quel sont les prérequis pour rejoindre le crew ?</h4>
+      <p>Voici quelques prérequis pour rejoindre le crew:</p>
+      <li><b>13 ans</b> minimum,</li>
+      <li>Avoir passer le <b>rang 80</b>,</li>
+      <li>Avoir au moins un <b>Appartement de Luxe</b> / <b>Securo Serv</b>,</li>
+      <li>Avoir + de <b>2 Lieux de Productions </b>( Cocaïne, Canabis, Fausse Monaie <a href="javascript:popup('product.html')">etc</a> ) ou <b>1 Kosatka</b>.</li> 
+
+    <script type="text/javascript">
+    function popup(page) {
+    window.open(page, "Lieux de Production - Gta 5 Online", "menubar=no, status=no, scrollbars=no, menubar=no, width=679, height=675");
+    }
+</script>
+<script>
+  setInterval(function(){
+    const clock = document.querySelector(".display");
+    let time = new Date();
+    let sec = time.getSeconds();
+    let min = time.getMinutes();
+    let hr = time.getHours();
+    let day = 'AM';
+    if(hr > 12){
+      day = 'PM';
+    }
+    if(hr == 0){
+      hr = 12;
+    }
+    if(sec < 10){
+      sec = '0' + sec;
+    }
+    if(min < 10){
+      min = '0' + min;
+    }
+    if(hr < 10){
+      hr = '0' + hr;
+    }
+    clock.textContent = hr + ':' + min + ':' + sec;
+  });
+</script>
+
+      </div>
+      <div>
+      </div>
+</div>
+</body>
+</html>
