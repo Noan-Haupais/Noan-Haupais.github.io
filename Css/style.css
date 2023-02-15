@@ -6,6 +6,7 @@ nav{
   margin: 0;
   padding: 0;
   display: flex;
+  position: sticky;
   height: 80px;
   width: 100%;
   background: #1b1b1b;

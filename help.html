@@ -5,6 +5,7 @@
       <title>[Aide] - Altium</title>
       <link rel="stylesheet" href="./Css/help.css">
       <link rel="stylesheet" href="./Css/style.css">
+      <link rel="stylesheet" href="./Css/reset.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
@@ -25,17 +26,63 @@
       </nav>
       <div class="content">
          <div class="sommaire">
-           <h2>Sommaire :<br><br></h2>
+           <h2>Sommaire :</h2>
            <ul>
               <li>
-                 <h3 class="upper">économie<br><br></h3>
-                 <ul>
-                    <li>
-                       <h4>Commande de base :<br><br></h4>
-                       <p><em>/bal</em> {user}: affiche l'argent (de l'utilisateur si donné)<br><br></p>
-                    </li>
-                 </ul>
+                 <a href="#economy"><h3 class="upper">économie</h3></a>
               </li>
+              <li>
+                 <a href="#level"><h3 class="upper">level</h3></a>
+              </li>
+              <li>
+                 <a href="#quest"><h3 class="upper">quête</h3></a>
+              </li>
+              <li>
+                 <a href="#top"><h3 class="upper">leaderboard</h3></a>
+              </li>
+              <li>
+                 <a href="#misc"><h3 class="upper">autre</h3></a>
+              </li>
+              <ul>
+                 <li>
+                    <h2 id="economy" class="upper">économie</h2>
+                 </li>
+                 <li>
+                    <ul>
+                       <h3>Commande de base :</h3>
+                       <p><em>/bal</em> {user}: affiche l'argent (d'un membre si donné)</p>
+                       <p><em>/pay</em> [user]: envoie de l'argent à un membre</p>
+                       <p><em>/daily</em>: donne de l'argent (Cooldown de 24h)</p>
+                       <p><em>/casino</em> [montant]: Joue au casino (?/? chance de gagné)</p>
+                       <p><em>/convert</em>: converti votre argent en argent in-game (Minecraft)</p>
+                    </ul>
+                 </li>
+                 <li>
+                    <h2 id="level" class="upper">level</h2>
+                 </li>
+                 <li>
+                    <ul>
+                       <h3>Commande de base :</h3>
+                       <p><em>/level</em> {user}: affiche le niveau (d'un membre si donné), son exp et l'exp de passage de niveau</p>
+                       <p><em>/role</em>: donne les rôle de niveau</p>
+                    </ul>
+                 </li>
+                 <li>
+                    <h2 id="quest" class="upper">quête</h2>
+                 </li>
+                 <li>
+                    <ul>
+                       <h3>Commande de base :</h3>
+                       <p><em>/quest</em> [action] {id}: <a href="#action" class="link">[Voir Action]</a></p>
+                       <ul id="action">
+                          <li>liste: affiche la liste des quêtes disponible</li>
+                          <li>accepte: accepter une quête</li>
+                          <li>reward: obtenir la récompense de quête</li>
+                          <li>status; affiche le status de la quête (%, nombre actuel/nombre à atteindre)</li>
+                       </ul>
+                    </ul>
+                 </li>
+              </ul>
            </ul>
          </div>
       </div>
