@@ -119,3 +119,16 @@ nav ul li a.Checked{
   padding-top: 20px;
   text-align: justify;
 }
+.discord{
+    color: white;
+    font-family: consolas;
+    background-color: #2f3136;
+    border: 1px solid #202225;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    line-height: 1.125rem
+    border-radius: 4px;
+}
+.changelog {
+line-height: 2em;
+}
