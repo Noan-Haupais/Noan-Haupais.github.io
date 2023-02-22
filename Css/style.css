@@ -81,6 +81,13 @@ input[type="checkbox"]{
   #click:checked ~ .menu-btn i:before{
     content: "\f00d";
   }
+  footer {
+    position: absolute;
+    bottom: 1px;
+    left: 45%;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+  }
 nav ul{
     position: fixed;
     top: 80px;
@@ -151,4 +158,12 @@ a.link:visited {
     text-decoration: none;
     word-break: break-word;
     cursor: pointer;
+}
+footer {
+  position: absolute;
+  bottom: 5px;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: #e9eaeb;
+  font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
