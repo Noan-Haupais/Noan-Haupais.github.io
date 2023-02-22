@@ -88,6 +88,12 @@ input[type="checkbox"]{
     font-size: 14px;
     transform: translate(-50%, -50%);
   }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 nav ul{
     position: fixed;
     top: 80px;
@@ -166,4 +172,7 @@ footer {
   transform: translate(-50%, -50%);
   color: #e9eaeb;
   font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+.discord {
+  color: #989a89;
 }

@@ -1,7 +1,7 @@
 .box {
     background-color: #313338;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
     z-index: -1;
     position: absolute;
     top: 59%;
@@ -9,7 +9,7 @@
     transform: translate(-50%, -50%);
     overflow-y: scroll;
     max-height: 70vh;
-    width: 80%;
+    width: 75%;
 }
 
 ul.ulBox {
