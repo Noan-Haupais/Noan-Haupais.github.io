@@ -126,17 +126,16 @@ nav ul li a.Checked{
   padding-top: 20px;
   text-align: justify;
 }
-footer {
-    position: absolute;
-    bottom: 0;
-}
-footer p{
-    color: #e9eaeb;
-}
 .upper {
     text-transform: uppercase;
 }
-.link {
+a.link{
+    color: #19aaf0;
+    text-decoration: none;
+    word-break: break-word;
+    cursor: pointer;
+}
+a.link:visited {
     color: #19aaf0;
     text-decoration: none;
     word-break: break-word;
