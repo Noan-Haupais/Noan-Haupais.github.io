@@ -132,3 +132,7 @@ nav ul li a.Checked{
 .changelog {
 line-height: 2em;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+}
