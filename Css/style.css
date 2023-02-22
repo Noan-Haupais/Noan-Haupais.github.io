@@ -23,6 +23,15 @@ nav .logo{
   font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
   font-size: 35px;
   font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 nav ul{
   display: flex;
