@@ -2,6 +2,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body {
+    background-color: #313338;
+}
 nav{
   margin: 0;
   padding: 0;
@@ -9,14 +12,15 @@ nav{
   position: sticky;
   height: 80px;
   width: 100%;
-  background: #1b1b1b;
+  background: #1e1f22;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
 }
 nav .logo{
-  color: #fff;
+  color: #e9eaeb;
+  font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
   font-size: 35px;
   font-weight: 600;
 }
@@ -30,7 +34,7 @@ nav ul li{
   margin: 0 5px;
 }
 nav ul li a{
-  color: #f2f2f2;
+  color: #989a89;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -41,8 +45,9 @@ nav ul li a{
 }
 nav ul li a.active,
 nav ul li a:hover{
-  color: #111;
-  background: #fff;
+  color: white;
+  font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+  background: #36373d;
 }
 nav .menu-btn i{
   color: #fff;
@@ -100,8 +105,8 @@ nav ul{
   }
 }
 nav ul li a.Checked{
-  color: #111;
-  background: #fff;
+  color: white;
+  background: #36373d;
 }
 .content{
   max-width: 1250px;
@@ -110,29 +115,30 @@ nav ul li a.Checked{
 }
 .content{
   padding: 30px 0;
+  color: #e9eaeb;
+  font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 .content .title{
-  font-size: 38px;
-  font-weight: 700;
+  color: #e9eaeb;
+  font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 .content p{
   padding-top: 20px;
   text-align: justify;
 }
-.discord{
-    color: white;
-    font-family: consolas;
-    background-color: #2f3136;
-    border: 1px solid #202225;
-    border-radius: 4px;
-    font-size: 0.875rem;
-    line-height: 1.125rem
-    border-radius: 4px;
-}
-.changelog {
-line-height: 2em;
-}
 footer {
     position: absolute;
     bottom: 0;
+}
+footer p{
+    color: #e9eaeb;
+}
+.upper {
+    text-transform: uppercase;
+}
+.link {
+    color: #19aaf0;
+    text-decoration: none;
+    word-break: break-word;
+    cursor: pointer;
 }
