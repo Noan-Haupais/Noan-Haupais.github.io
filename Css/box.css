@@ -20,9 +20,20 @@ ul.ulBox {
 
 li.liBox {
     margin: 10px 0;
-    padding: 10px;
+    padding: 10px 10px 10px 36px;
     background-color: #2f3136;
     color: white;
     border-radius: 5px;
     border: 1px solid #1e1f22;
+    position: relative;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
 }
