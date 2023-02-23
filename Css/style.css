@@ -85,7 +85,7 @@ input[type="checkbox"]{
     position: absolute;
     bottom: 1px;
     left: 45%;
-    font-size: 14px;
+    font-size: 9px;
     transform: translate(-50%, -50%);
   }
   .content {
@@ -167,7 +167,7 @@ a.link:visited {
 }
 footer {
   position: absolute;
-  bottom: 5px;
+  margin-top: 15px;
   left: 45%;
   transform: translate(-50%, -50%);
   color: #e9eaeb;
