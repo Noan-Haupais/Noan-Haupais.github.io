@@ -4,7 +4,7 @@
       <title>Accueil - Altium</title>
       <link rel="icon" type="image/x-icon" href="./Icone/icone.ico"/>
       <link rel="stylesheet" href="./Css/style.css">
-      <link rel="stylesheet" href="./Css/typing.css">
+      <link rel="stylesheet" href="./Css/pone-style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7439958415351283" crossorigin="anonymous"></script>
@@ -25,6 +25,21 @@
       <!-- End Matomo Code -->
    </head>
    <body>
+      <style>
+       #footer {
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           width: 100%;
+           padding: 5px 0;
+           text-align: center;
+       }
+       @media only screen and (min-width: 920px) {
+           #footer {
+               position: static;
+           }
+       }
+      </style>
       <nav>
          <div class="logo">
             <img width="50px" height="50px" src="./Images/altium.png">
@@ -55,7 +70,10 @@
                <p>Serveur secondaire, créé en février 2023, il est fait pour une survie Minecraft 100% Vanilla et PvP.</p>
                <h3>Pour toute demande, veuillez rejoigne le <a href="https://discord.gg/nVzPhP8BmA" class="link">discord</a>.</h3>
             </ul>
-      <footer>© Copyright Altium-Group 2023 | <a class="link" href="privacy.html"><i class="fas fa-lock"></i> Privacy Policy</a></footer>
+      
+      </div>
+      <div id="footer">
+         <footer>© Copyright Altium-Group 2023 | <a class="link" href="privacy.html"><i class="fas fa-lock"></i> Privacy Policy</a></footer>
       </div>
    </body>
 </html>
