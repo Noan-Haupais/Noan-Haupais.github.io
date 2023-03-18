@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Boîte déroulante HTML</title>
+    <style>
+      /* Style pour la boîte */
+      .boite {
+        width: 200px;
+        padding: 10px;
+        background-color: #eee;
+        border: 1px solid #999;
+        cursor: pointer;
+      }
+
+      /* Style pour la liste déroulante */
+      .liste {
+        display: none;
+        padding: 0;
+        margin: 0;
+        background-color: #eee;
+        border: 1px solid #999;
+      }
+
+      /* Style pour les éléments de la liste */
+      .liste li {
+        list-style: none;
+        padding: 5px;
+        cursor: pointer;
+      }
+
+      /* Style pour les éléments de la liste au survol */
+      .liste li:hover {
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boite" onclick="afficherListe()">Cliquez ici pour afficher la liste</div>
+    <ul class="liste" id="maListe">
+      <li>Élément 1</li>
+      <li>Élément 2</li>
+      <li>Élément 3</li>
+    </ul>
+    <script>
+      // Fonction pour afficher ou masquer la liste
+      function afficherListe() {
+        var liste = document.getElementById("maListe");
+        if (liste.style.display === "none") {
+          liste.style.display = "block";
+        } else {
+          liste.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,3 +1,7 @@
+body {
+  user-select: none;
+}
+
 .box {
     background-color: #313338;
     border-radius: 10px;
@@ -26,8 +30,8 @@ li.liBox {
     border-radius: 5px;
     border: 1px solid #1e1f22;
     position: relative;
+    cursor: pointer;
 }
-
 .icon {
     width: 24px;
     height: 24px;
